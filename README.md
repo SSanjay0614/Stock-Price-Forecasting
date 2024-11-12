@@ -11,9 +11,17 @@ Application of ARIMA: The ARIMA model was fitted on the ‘Close’, ‘High’,
 One-Day Forecast: We used a single-step forecast, predicting the immediate next day’s values.
 One-Week Forecast: A multi-step forecast was generated to predict the closing prices over the next seven days. This allows us to identify trends or directional shifts in the exchange rate for the week ahead.
 
-## 3. Computing MetricsMoving Average: 
+## 3. Computing Metrics
+### Moving Average: 
 
-Moving average for one-day as well as one-week values of forecast was computed. Moving average smoothes the fluctuations and provides a mean around which prices may deviate.Bollinger Bands: Calculated the value using a moving average centerline and an upper/lower band with an add on/off of two standard deviations.
+Moving average for one-day as well as one-week values of forecast was computed. Moving average smoothes the fluctuations and provides a mean around which prices may deviate.
+
+### Bollinger Bands: 
+
+Calculated the value using a moving average centerline and an upper/lower band with an add on/off of two standard deviations.
+
+### CCI: 
+
 The CCI was calculated as (Typical Price−Moving Average)/Mean Absolute Deviation (MAD), providing a measure of the price deviation from its average.
 
 ## 4. Conclusion
